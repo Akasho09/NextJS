@@ -4,6 +4,10 @@
 3. React isnt SEO optimzed  : Google doesnt recognoize what the web contains as the index.htnl only contains refrebnces of the fules and npopt contents.  
 4. Waterfalling problem:  sending requesrs one after other  and not  getting all things at once . 
 
+Why?
+- No cors issues, single domain name for your FE and BE
+Ease of deployment, deploy a single codebase
+
 # set up
 
 npx create next-app@latest
@@ -27,4 +31,4 @@ npm run dev
 wrap a folder in () ,    to ignore in routing .
 
 
-  
+## async componenets 
