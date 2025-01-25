@@ -12,6 +12,5 @@ export default function ({children }:  {children : React.ReactNode}) {
     </div>
     <div className="h-full flex items-center justify-center bg-slate-100">{children}</div>
         </div>
-    
     )
 }

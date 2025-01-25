@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 async function getUserDetails (){
- await new Promise((resolve) => setTimeout(resolve, 5000));
+//  await new Promise((resolve) => setTimeout(resolve, 5000));
 
-  const res = await axios.get('http://localhost:3000/api');
-  return res.data; 
+  // const res = await axios.get('http://localhost:3000/api');
+  return  "Home Page"
 }
 
 
@@ -14,12 +14,9 @@ export default async function Home() {
     <div className="flex flex-col justify-center h-screen">
     <div className="flex justify-center">
         <div className="border p-8 rounded">
-            <div>
-                Name: {userData?.name}
-            </div>
-            
-            {userData?.email}
-        </div>
+            Home Page
+            {userData}
+           </div>
     </div>
 </div>
   );

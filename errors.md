@@ -5,4 +5,5 @@ If you need interactivity, consider converting part of this to a Client Componen
 
 "use client"
 
-## 
+## // const bcrypt = require('bcrypt');
+import bcrypt from 'bcrypt';

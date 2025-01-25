@@ -32,3 +32,8 @@ wrap a folder in () ,    to ignore in routing .
 
 
 ## async componenets 
+
+## use neonDb
+
+##  import { useRouter } from "next/navigation"
+not /route
