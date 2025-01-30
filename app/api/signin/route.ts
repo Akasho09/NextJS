@@ -4,7 +4,9 @@ import { PrismaClient } from "@prisma/client";
 const aksh =  new PrismaClient()
 export async function POST (req : NextRequest){
     const body = await req.json();
-   const user = await aksh.user.findUnique({
+    // const headers = req.headers.get("Auth");//headers
+    // const queryParams = req.nextUrl.searchParams.get("id") // query params
+    const user = await aksh.user.findUnique({
     where:{
         username : body.username,
     }

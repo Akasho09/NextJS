@@ -1,5 +1,4 @@
 const bcrypt = require('bcrypt');
-// import bcrypt from 'bcrypt';
 const saltRounds = 3;
 
 export default async function hashIt (pass : string) {

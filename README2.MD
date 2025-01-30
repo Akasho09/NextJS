@@ -32,6 +32,8 @@ wrap a folder in () ,    to ignore in routing .
 
 
 ## async componenets 
+used for server side rendering 
+add loaders.
 
 ## use neonDb
 

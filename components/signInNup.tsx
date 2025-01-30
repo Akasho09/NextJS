@@ -30,7 +30,7 @@ export default function SignInNup ({type} : {type:"signin" | "signup"}){
             setPassword(e.target.value)
         }}
         ></LabelledInput>
-        <button 
+        <button
         onClick={handleclick}
         className="mt-4 w-full bg-blue-700 border border-grey-2 rounded p-1 ">{type==="signin" ? "Login" : "Sign Up"}</button>
     </div>
