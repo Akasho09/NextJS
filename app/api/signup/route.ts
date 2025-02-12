@@ -17,3 +17,9 @@ return Response.json({
     sucess:  true
 })
 }
+
+export function GET (req  : NextRequest){
+    return Response.json({
+        message : 'signup bckend ',
+    })
+}

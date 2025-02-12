@@ -39,3 +39,10 @@ add loaders.
 
 ##  import { useRouter } from "next/navigation"
 not /route
+
+
+## [...s]
+to send a single page to all routes above it
+
+## params 
+export function GET (req  : NextRequest, {params : {s}} : {params:{ s:[]} } ){
